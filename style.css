@@ -1,0 +1,56 @@
+/* Resetting CSS styles */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  font-size: 15px;
+}
+
+#card {
+  width: 375px;
+  height: 550px;
+/*   border: 2px solid black; */
+  box-shadow: 5px 4px 15px -2px #2E2E2E;
+  border-radius: 7px;
+/*   overflow: hidden; */
+}
+
+#top-section {
+/*   border: 2px solid red; */
+  height: 65%;
+  line-height: 65%;
+  text-align: center;
+}
+
+#top-section img {
+  display: block;
+  padding: 15px;
+  vertical-align: middle;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+#bottom-section {
+/*   border: 2px solid green; */
+  height: 35%;
+  text-align: center;
+}
+
+h2, p {
+  padding-left: 25px;
+  padding-right: 25px;
+  display: inline-block;
+  vertical-align: mmiddle;
+}
+
+p {
+color: hsl(212, 45%, 89%);
+  background-color: 
+/*   opacity: 0.6; */
+}
