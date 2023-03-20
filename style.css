@@ -10,6 +10,7 @@ html {
 body {
   font-family: 'Outfit', sans-serif;
   font-size: 15px;
+  background-color: hsl(212, 45%, 89%);
 }
 
 #card {
@@ -17,8 +18,9 @@ body {
   height: 550px;
 /*   border: 2px solid black; */
   box-shadow: 5px 4px 15px -2px #2E2E2E;
-  border-radius: 7px;
-/*   overflow: hidden; */
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: hsl(0, 0%, 100%);
 }
 
 #top-section {
@@ -51,7 +53,5 @@ h2, p {
 }
 
 p {
-color: hsl(212, 45%, 89%);
-  background-color: 
-/*   opacity: 0.6; */
+  opacity: 0.55;
 }
