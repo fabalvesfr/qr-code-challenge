@@ -34,6 +34,7 @@ body {
   vertical-align: middle;
   max-height: 100%;
   max-width: 100%;
+  border-radius: 5px;
 }
 
 #bottom-section {
