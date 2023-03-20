@@ -24,23 +24,26 @@ body {
 }
 
 #top-section {
-/*   border: 2px solid red; */
+  border: 2px solid white;
   height: 65%;
   line-height: 65%;
-  text-align: center;
 }
 
 #top-section img {
   display: block;
-  padding: 15px;
   vertical-align: middle;
-  max-height: 100%;
-  max-width: 100%;
-  border-radius: 5px;
+  margin-top: 30px;
+  max-height: 85%;
+  max-width: 85%;
+  border-radius: 10px;
+/*   border: 1px solid red; */
+  margin-left:auto;
+  margin-right: auto;
+  width: 100%;
 }
 
 #bottom-section {
-/*   border: 2px solid green; */
+  border: 2px solid white;
   height: 35%;
   text-align: center;
 }
